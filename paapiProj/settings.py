@@ -61,8 +61,6 @@ CORS_ALLOWED_ORIGINS = [
 
 CORS_ALLOW_ALL_ORIGINS = False
 
-
-
 ROOT_URLCONF = 'paapiProj.urls'
 
 TEMPLATES = [

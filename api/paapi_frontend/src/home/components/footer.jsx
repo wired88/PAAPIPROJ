@@ -1,4 +1,3 @@
-import "../style.css";
 import final_logo from "../../assets/final_logo.png";
 
 

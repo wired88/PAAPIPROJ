@@ -47,6 +47,7 @@ const ContactForm = () => {
 
     try {
       const response = await axios.post("http://127.0.0.1:8000/api/contact/", conFom);
+      console.log("response:" + response);
       const successUrl = response.data.successUrl;
       setForm({...form, successUrl: successUrl});
       setStatus(response.data.status);

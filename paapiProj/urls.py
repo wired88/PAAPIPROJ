@@ -5,6 +5,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("home.urls")),
-    path("api/", include("api.urls", namespace='rest_framework'))
+    path("api/", include("api.urls", namespace='aoi'))
 ]
 
