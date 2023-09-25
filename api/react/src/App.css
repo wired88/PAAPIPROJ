@@ -452,11 +452,14 @@ li {
 
 .searchResultContent {
     grid-row: 2;
-
     display: grid;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 24vmin 24vh 24vh 24vh 24vh 24vh 24vh 24vh 24vh 24vh;
     flex-direction: column;
 }
+
+
+
+
 .productElement {
     height: 100%;
     width: 100%;
@@ -499,14 +502,31 @@ li {
 
 .productElementCOL4 {
     grid-column: 4;
-}
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
 
+}
+.productElementCOL4ROW1 {
+    z-index: 5;
+    grid-column: 1;
+    grid-row:1;
+}
+.productElementCOL4ROW1 p{
+    color: white;
+    font-size: 16px;
+
+}
 .infoTextContentPage {
 
 }
 
 
-
+.action_btn {
+    position: relative;
+    padding: 1rem 3rem;
+    background-color: rgb(255, 253, 0);
+}
 
 /*
 

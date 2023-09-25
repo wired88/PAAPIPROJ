@@ -23,6 +23,18 @@ function ProductElement({number}) {
         </p>
       </div>
       <div className={"productElementCOL4"}>
+        <div className={"productElementCOL4ROW1 bg-dark"}>
+          <p>
+            amazon
+          </p>
+        </div>
+
+
+
+        <button className={"action_btn"}>
+          Amazon.com {/* change .com to custom */}
+
+        </button>
         <p>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           PRODUCT RECENSION'S + call-to-action HERE
