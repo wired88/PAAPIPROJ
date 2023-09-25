@@ -1,8 +1,13 @@
 from django.http import JsonResponse
+from django.views.generic import TemplateView
 from rest_framework import generics, status
 from rest_framework.permissions import AllowAny
 from .models import *
 from .serializers import *
+
+class Index(TemplateView):
+    template_name = "index.html"
+
 
 
 class ContactAPIView(generics.CreateAPIView):
